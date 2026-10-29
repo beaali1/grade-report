@@ -9,8 +9,13 @@ with open("nomre.txt") as f:
         if int(i[1]) > bala:
             bala = int(i[1])
             behtarin = i[0]
-    print("behtarin:",behtarin,":",bala,"\n")
-    print(jam/len(matn.split()))
+    miangin = jam / len(matn.split())
+
+with open("gozaresh.txt" , "w") as g:
+    g.write("miangin:" + str(miangin) +"\n")
+    g.write("behtarin:" + behtarin + "\n")
+    g.write("balatarin:" + str(bala) + "\n")
+
 
     
 
