@@ -1,3 +1,4 @@
+# barnameye gozaresh-e nomre
 with open("nomre.txt") as f:
     matn = f.read()
     bala = 0
