@@ -8,6 +8,8 @@ print("miangin =",miangin)
 print("bishtar =",bishtar)
 print("kam =",kam)
 print("jam =",jam)
+print(df.describe())
+print(df[df["grade"] < 15])
 
 
 
