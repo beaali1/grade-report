@@ -4,13 +4,13 @@ jam = df["grade"].sum()
 kam = df["grade"].min()
 bishtar = df["grade"].max()
 miangin = df["grade"].mean()
-print("miangin =",miangin)
-print("bishtar =",bishtar)
-print("kam =",kam)
-print("jam =",jam)
-print(df.describe())
-print(df[df["grade"] < 15])
-
-
-
+##print("miangin =",miangin)##
+##print("bishtar =",bishtar)##
+##print("kam =",kam)##
+##print("jam =",jam)
+##print(df.describe())
+##print(df[df["grade"] < 15])
+##print(df.head())
+df["ghabool"] = df["grade"] >= 12
+print(df)
 
